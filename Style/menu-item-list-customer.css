@@ -1,0 +1,161 @@
+html{
+    margin: 0;
+    font-family: arial;
+}
+header{
+    overflow: auto;
+    margin: 0;
+    background-color: #09358f;
+    width:100%;
+    color:white;
+}
+.container-1 .divide-2{
+    width:50%;
+    float:left;
+}
+.container-1 .divide-2 .col{
+    float:left;
+}
+
+.container-1.divide-2 .img-1{
+    padding-top: 15px;
+    padding-left: 50px;
+    
+}
+ .container-1 .divide-2 .menu-link{
+    padding-top: 10px;
+    text-decoration: underline;
+    text-align:right;
+     padding-left: 450px;
+}
+.container-1 .main-section-1{
+    height:75vh;
+    width:80%;
+    margin:auto;
+}
+ 
+.footer{
+    height:60px;
+    background-color: #919a9e;
+}
+.foot{
+    padding-left: 50px;
+    padding-top: 6px;
+}
+.container-1 .admin-table{
+    text-align: center;
+    margin: auto;
+    width:100%;
+}
+
+.container-1.section-heading{
+    padding-left:100px; 
+}
+.container-1 .details{
+    color:#16a600;
+    font-weight: bold;
+}
+.divide-2{
+    float:left;
+    width:50%;
+}
+.divide-2 .col{
+    float:left;
+}
+.divide-2 .btn{
+    padding-left: 450px;
+}
+.divide-2 .btn .cart-link{
+    padding-left: 150px;
+    color:white;
+}
+.divide-2 .img-1{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.divide-2 a{
+    color: white;
+}
+.main-section-1{
+    height:75vh;
+    width:80%;
+    margin: auto;
+}
+.footer{
+    height:60px;
+    background-color: #919a9e;
+}
+.foot{
+    padding-left: 50px;
+    padding-top: 6px;
+}
+.customer-table{
+    text-align: center;
+    margin: auto;
+    width:100%;
+}
+th{
+    font-weight: bold;
+}
+td{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.section-heading{
+    padding-left: 120px
+}
+.cart-status{
+    text-align: center;
+    color:#16a600;
+}
+#total{
+    text-align: center;
+}
+.customer-table-cart{
+    margin: auto;
+    width:100%;
+    text-align: center;
+}
+.main-section-1-cart{
+    height:75vh;
+    width:80%;
+    margin:auto;
+}
+.section-heading-cart{
+     padding-left: 60px;
+}
+/*edit menu*/
+.container-1 .main-section-2{
+    height:70vh;
+    width:80%;
+    margin: auto;
+}
+.container-1 #name{
+    width:100%
+}
+
+.main-section-2 .edit-table{
+    padding-top: 40px;
+    text-align: left;
+    width: 100%;
+    
+}
+.container-1 #check-box{
+    height:20px;
+    width:20px;
+}
+.container-1 #check{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.container-1 #save-btn{
+    padding: 10px 40px;
+    background-color: #09358f;
+    color:white;
+}
+/*cart-noti*/
+#total1{
+    text-align: center;
+    font-weight: bold;
+}

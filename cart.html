@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <title>menu-item-list-admin</title>
+    <link rel="stylesheet" type="text/css" href="style/menu-item-list-customer.css">
+    <script type="text/javascript" src="js/truyum.js"> 
+ </script>
+</head>
+<body onload="add();">
+<header>
+            <div class="divide-2">
+            <div class="col">
+                <h1>truYum</h1>
+            </div>
+                <div class="col">
+            <div class="img-1"><img src="images/spoon.jpg" height=50 width=50></div>
+        </div>
+            </div>
+        <div class="divide-2"> 
+            <div class="btn">
+        <div class="col">
+            <div class=menu-link><a href="menu-item-list-customer.html" class="menu-btn"><h3>menu</h3></a>
+            </div>
+            </div>
+                <div class="col">
+            <div class="cart-link"><a href="#" class="cart-btn"><h3>cart</h3></a></div>
+            </div>
+            </div>
+            </div>
+        </header>
+        <div class="main-section-1-cart">
+            <br>
+            <br>
+            <div class="section-heading-cart"><h1>Cart</h1></div>
+            <br>
+            <table class="customer-table-cart">
+    <tr>
+      <th>Name </th>
+         <th>Free Delivery</th>
+      <th>Price</th>
+    <th>Action</th>
+    </tr>
+    <tr>
+      <td>Sanwitch</td>
+        <td>Yes</td>
+        <td id="price">Rs. 99.00</td>
+      
+        <td><a href="cart.html" onclick="deleted()">Delete</a>
+          </td>
+    </tr>
+    <tr>
+        <td>Burger</td>
+        <td>No</td>
+        <td>Rs. 129.00</td>
+        <td><a href="cart.html" onclick="deleted()">Delete</a>
+            </td>
+    </tr>
+    <tr>
+        <td>Pizza</td>
+        <td>No</td>
+        <td>Rs. 149.00</td>
+        <td><a href="cart-notification.html">Delete</a>
+            </td>
+    </tr>
+
+
+  </table>
+            <div id="total"><strong>Total Rs. 377</strong></div>
+            
+        </div>
+        <br>
+        <div class="footer">
+            <div class="foot"><p>Copyright  @  2020</p></div>
+        </div>
+</body>
